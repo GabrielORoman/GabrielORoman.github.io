@@ -10,6 +10,8 @@ body {
     animation: mymove 3s infinite;
     background-image: linear-gradient(black, lightblue);
     padding: 2%;
+    padding-top: 0%;
+    padding-bottom: 0%;
     text-align: center;
     font-size: 18px;
 }
