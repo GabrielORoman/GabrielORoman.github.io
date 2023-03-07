@@ -36,10 +36,16 @@ body {
     border-radius: 20px;
 }
 
-.column.side {
+.column.side.left {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+}
+
+.column.side.right {
+    -webkit-flex: 1.25;
+    -ms-flex: 1.25;
+    flex: 1.25;
 }
 
 .column.side.left {
@@ -48,9 +54,9 @@ body {
 }
 
 .column.middle {
-    -webkit-flex: 2;
-    -ms-flex: 2;
-    flex: 2;
+    -webkit-flex: 1.75;
+    -ms-flex: 1.75;
+    flex: 1.75;
 }
 
 .footer {
@@ -87,7 +93,6 @@ h3 {
     text-shadow: 7px 4px 5px rgb(58, 189, 233);
     background-color:black;
 }
-
 
 img {
     width: 200px;
