@@ -9,25 +9,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
-    <link rel="icon" href="/Proyecto-Integrador-Ticmas/Imagenes/Corazon-Olimpico.png">
-
+    <link rel="icon" href="./Imagenes/Corazon-Olimpico.png" type="image/png">
 </head>
 
 <body>
     <script src="js/function.js"></script>
-    <header>
-        <div>
+    <div class="header">
         <h1>Abebe Bikila</h1>
-        <img id="imagen-perfil" src="Imagenes/Abebe.jpg" alt="Imagen de Abebe Bikila posando">
-        <button class="toggle-btn" onclick="toggleProfilePic()">Cambiar imagen</button>
-
     </div>
+    
 
-    </header>
+    <div class="row">
+        <div class="column side left">
+        <img id="imagen-perfil" src="Imagenes/Abebe.jpg" alt="Imagen de Abebe Bikila posando" class="Imagen">
+        <button class="toggle-btn" onclick="toggleProfilePic()">Cambiar imagen</button>
+        <button class="toggle-btn" onclick="imprimirPagina()">Imprimir</button>
 
-    <div class="conteiner">
-        <div class="columna">
-        <h2>Datos personales</h2>
+        <h2><u>CONTACTO</u></h2>
+        <p>Teléfono: (001)19601964 
+        <br>
+        Email: <a href="mailto:a.bikila@gmail.com">a.bikila@gmail.com</a>
+        </p>
+        </div>
+
+        <div class="column middle">
+        <h3>Datos personales</h3>
         <hr>
         <ul>
         <li>NOMBRE: Abebe Bikila</li>
@@ -36,45 +42,30 @@
         <li>PESO: 57 kg</li>
         <li>ALTURA: 1,76m</li>
         </ul>
-        </div>
-        <hr>
+        <br>
 
-        <div class="columna">
-        <h2>Experiencia</h2>
+        <h3>Experiencia</h3>
         <hr>
-        <p>Participaciónes como maratonista en los Juegos Olimpicos de Roma 1960, Tokio 1964 
-        y Mexico 1968 representando a Etiopia</p>
+        <p>Participaciones como maratonista en los Juegos Olímpicos de Roma 1960, Tokio 1964 
+        y México 1968 representando a Etiopia.</p>
         </div>
-        <hr>
 
-        <div class="columna">
-        <h2>Logros</h2>
+        <div class="column side right">
+        <h3>Logros</h3>
         <hr>
         <ol>
-        <li>Medalla dorada Roma 1960</li>
-        <li>Establecer record de 2h15'16"</li>
-        <li>Correr descalzo y ganar una maraton olimpica</li>
-        <li>Medalla dorada Tokio 1964</li>
+        <li>Medalla dorada en Roma 1960</li>
+        <li>Establecer récord de 2h15'16"</li>
+        <li>Correr descalzo y ganar una maratón olímpica</li>
+        <li>Medalla dorada en Tokio 1964</li>
         <li>Establecer nuevo record de 2h12'12"</li>
         </ol>
         </div>
-        <hr>
-    </div>
-    
-
-    <div class="conteiner fluid">
-        <div class="columna-4">
-        <h3><u>CONTACTO</u></h3>
-        <ul>
-        <li>Teléfono: (001) 19601964</li>
-        <li>Email: <a href="mailto:abebe.bikila@gmail.com">abebe.bikila@gmail.com</a></li>
-        </ul>
-        </div>
     </div>
 
-    <footer>
+    <div class="footer">
         <span><strong>Primer atleta africano en  ganar una medalla de oro 
         en los juegos olímpicos.</strong></span>
-    </footer>
+    </div>
 </body>
 </html>
