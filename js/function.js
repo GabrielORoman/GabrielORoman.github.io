@@ -7,3 +7,6 @@ function toggleProfilePic() {
     }
 }
 
+function imprimirPagina() {
+    window.print();
+}
