@@ -108,8 +108,7 @@ ul {
     background: lightblue;
     background: #72adad;
     padding: 20px;
-    border-radius:20px
-    
+    border-radius:20px;
 }
 
 ol {
@@ -117,7 +116,7 @@ ol {
     list-style-position: outside;
     background: #72adad;
     padding: 20px;
-    border-radius:20px
+    border-radius:20px;
 }
 
 ol li {
